@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+  background-image: url("/img/chuong_doraweb.png");
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #767676;
+  margin: 10px 100px;
+  border-radius: 20px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo .logo {
+  font-size: 24px;
+  color: #fffffc;
+  text-decoration: none;
+}
+
+.nav-logo .img-logo {
+  width: 50px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  background-color: #00d1ff;
+  transition: 2s;
+}
+
+.navbar .magic-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+
+.navbar .magic-button:hover {
+  background-color: yellowgreen;
+  transition: 2s;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  color: #00d1ff;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.start-btn {
+  background-color: #00d1ff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 400px;
+  height: auto;
+}
