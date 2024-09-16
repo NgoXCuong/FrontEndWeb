@@ -52,11 +52,13 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  cursor: pointer;
 }
 
-.navbar ul li a:hover {
+.navbar ul li:hover {
   background-color: #00d1ff;
   transition: 2s;
+  height: max-content;
 }
 
 .navbar .magic-button {
